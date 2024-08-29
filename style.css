@@ -44,9 +44,25 @@
 
 .img img {
     margin-top: 50px;
-    width: 80%;
+    width: 30%;
     margin-bottom: 50px;
 }
+
+/* Tablet */
+@media (max-width: 900px) {
+    .img img {
+        width: 80%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .img img {
+        width: 80%;
+    }
+}
+
+
 
 @keyframes firework {
     0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
